@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'heav';
+    src: url(../fonts/upheavtt.ttf);
+}
+@font-face {
+    font-family: 'script';
+    src: url(../fonts/IsaacScript2.ttf);
+}
+body{
+    background-image: url(../img/Shop.jpg);
+    background-size:contain;
+    display: block;
+}
+header{
+    font-family: 'heav';
+    background-color: rgb(132, 58, 16);
+    text-align: center;
+    font-size:xx-large;
+    color: blue;
+    margin-top: 10px;
+}
+.ani1{
+    background-image: url(../img/greed1.jfif);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
+.fondo1{
+    position: absolute;
+    z-index: 5;
+    width: 550px;
+    height: 350px;
+    left:7%;
+    background-image: url(../img/Angel_0.webp);
+    top: 100px;
+background-size: cover;
+    }
+
+    .pro1{
+        position: absolute;
+        z-index: 5;
+        left:20%;
+        top: 100px;
+        color: aliceblue;
+        font-family: 'script';
+        font-size: x-large;
+    }
+
+    
+.fondo2{
+        position: absolute;
+        z-index: 5;
+        width: 550px;
+        height: 350px;
+        right:7%;
+        background-image: url(../img/arcade.webp);
+        top: 100px;
+    background-size: cover;
+        }
+        .pro2{
+            font-family: 'script';
+            font-size: x-large;
+            position: absolute;
+            z-index: 5;
+            right: 19%;
+            top: 100px;
+            color: aliceblue;
+        }
+        .fondo3{
+            position: absolute;
+            z-index: 5;
+            width: 550px;
+            height: 350px;
+            left:7%;
+            background-image: url(../img/basement.webp);
+            top: 500px;
+        background-size: cover;
+            }
+            .pro3{
+                position: absolute;
+                z-index: 5;
+                left:21%;
+                top: 490px;
+                color: aliceblue;
+                font-family: 'script';
+                font-size: x-large;
+            }
+            .fondo4{
+                position: absolute;
+                z-index: 5;
+                width: 550px;
+                height: 350px;
+                right:7%;
+                background-image: url(../img/dark.png);
+                top: 500px;
+            background-size: cover;
+                }
+                .pro4{
+                    font-family: 'script';
+                    font-size: x-large;
+                    position: absolute;
+                    z-index: 5;
+                    right:32%;
+                    top: 499px;
+                    color: aliceblue;
+                }
+                .fondo5{
+                    position: absolute;
+                    z-index: 5;
+                    width: 550px;
+                    height: 350px;
+                    left:7%;
+                    background-image: url(../img/cama.jpeg);
+                    top: 900px;
+                background-size: cover;
+                    }
+                    .pro5{
+                        position: absolute;
+                        z-index: 5;
+                        left:17%;
+                        top: 895px;
+                        color: aliceblue;
+                        font-family: 'script';
+                        font-size: x-large;
+                    }
+                    .fondo6{
+                        position: absolute;
+                        z-index: 5;
+                        width: 550px;
+                        height: 350px;
+                        right:7%;
+                        background-image: url(../img/zodiaco.jpeg);
+                        top: 900px;
+                    background-size: cover;
+                        }
+                        .pro6{
+                            font-family: 'script';
+                            font-size: x-large;
+                            position: absolute;
+                            z-index: 5;
+                            right:25%;
+                            top: 895px;
+                            color: aliceblue;
+                        }
+                        .ani1{
+                            background-image: url(../img/greed1.jfif);
+                            position: absolute;
+                            height: 200px;
+                            width: 400px;
+                            background-size: contain;
+                            z-index: 6;
+                            top: 180px;
+                            left: 167px;
+                        }
+                        .ani1:active{
+                            transition-property: background-image;
+                            transition-duration: .5s;
+                            background-image: url(../img/greed2.jfif);
+                        }
+                        .ani2{
+                            background-image: url(../img/lazaro1.webp);
+                            position: absolute;
+                            height: 200px;
+                            width: 180px;
+                            top: 180px;
+                            right: 268px;
+                            z-index: 6;
+                            background-size: contain;
+                            animation-name:lazaro;
+                            animation-timing-function: linear;
+                            animation-iteration-count: infinite;
+                            animation-duration: 2s;
+                            animation-direction: alternate;
+                        }
+                        .ani2_2{
+                            background-image: url(../img/lazaro3.jpg);
+                            position: absolute;
+                            height: 200px;
+                            width: 180px;
+                            top: 165px;
+                            right: 275px;
+                            z-index: 6;
+                            background-size: cover;
+                            animation-name:lazaro2;
+                            animation-timing-function: linear;
+                            animation-iteration-count: infinite;
+                            animation-duration: 2s;
+                            animation-direction: alternate;
+                        }
+                        @keyframes lazaro {
+                           0%{opacity: 1;}
+                           50%{opacity: .5;}
+                           100%{opacity: 0;}
+                        }
+                        @keyframes lazaro2 {
+                            0%{opacity: 0}
+                            50%{opacity: .5;}
+                            100%{opacity: 1;}
+                         }
+                         .ani3{
+                            background-image: url(../img/lost.png);
+                            position: absolute;
+                            height: 200px;
+                            width: 200px;
+                            background-position-x: center;
+                            top: 570px;
+                            left: 20%;
+                            z-index: 6;
+                            background-size: cover;
+                           
+                        } 
+                        .ani3:active{
+                            animation-name:lost;
+                            animation-timing-function: linear;
+                            animation-iteration-count:1;
+                            animation-duration: 2s;
+                            /* animation-direction:normal; */
+                        }
+                        @keyframes lost {
+                            0%{opacity: 1;}
+                            50%{opacity: .5;}
+                            100%{opacity: 0;}
+                         }
+                        .ani4{
+                           background-image: url(../img/isaac.gif);
+                          position: absolute;
+                          height: 200px;
+                          width: 200px;
+                          background-position-x: center;
+                          top: 570px;
+                          right: 200px;
+                          z-index: 6;
+                          background-size: cover;
+                           animation-name:vibracion;
+                            animation-timing-function: linear;
+                            animation-iteration-count: infinite;
+                            animation-duration: .5s;
+                            animation-direction: alternate;
+                            }
+                            @keyframes vibracion {
+                                0%{top: 575px;}
+                                10%{top: 570px;}
+                                20%{right: 210px;}
+                                30%{right: 200px;}
+                                40%{top: 575px; right: 190px;}
+                                50%{top: 570px; right: 200px;}
+                                60%{top:575px; right: 210px;}
+                                70%{top: 570px; right: 190px;}
+                                80%{top: 575px;}
+                                90%{top: 570px;}
+                                95%{right: 210px;}
+                                100%{right: 200px;}
+                            }
+                            .ani5{
+                                background-image: url(../img/blue.webp);
+                                position: absolute;
+                                height: 150px;
+                                width: 130px;
+                                background-position-x: center;
+                                top: 990px;
+                                left: 305px;
+                                z-index: 6;             
+                            }
+                            .ani5_2{
+                                background-image: url(../img/moscas.webp);
+                                position: absolute;
+                                height: 160px;
+                                width: 180px;
+                                background-position-x: center;
+                                top: 990px;
+                                left: 280px;
+                                z-index: 7;   
+                                background-size: cover;
+                                 animation-name:moscas;
+                                  animation-timing-function: linear;
+                                  animation-iteration-count: infinite;
+                                  animation-duration: 2s;
+                                  animation-direction:normal;
+                            }
+                            @keyframes moscas {
+                                from{transform: rotate(0deg);}
+                                to{transform: rotate(360deg);}
+                            }
+                            .ani6
+                            {
+                                background-image: url(../img/azazel.jpg);
+                                position: absolute;
+                                height: 160px;
+                                width: 180px;
+                                background-position-x: center;
+                                top: 990px;
+                                right: 280px;
+                                z-index: 7;   
+                                background-size: cover;
+                                 animation-name:mevoy;
+                                  animation-timing-function: linear;
+                                  animation-iteration-count: infinite;
+                                  animation-duration: 2s;
+                                  animation-direction:alternate-reverse;
+                            }
+                            @keyframes mevoy {
+                                from{right: -200px;}
+                                to{right: 280   px;}
+                                
+
+                            }   
